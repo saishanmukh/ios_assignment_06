@@ -9,13 +9,15 @@
 /* Begin PBXBuildFile section */
 		BEF7E27A27FCCFD00096FE2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF7E27927FCCFD00096FE2D /* AppDelegate.swift */; };
 		BEF7E27C27FCCFD00096FE2D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF7E27B27FCCFD00096FE2D /* SceneDelegate.swift */; };
-		BEF7E27E27FCCFD00096FE2D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF7E27D27FCCFD00096FE2D /* ViewController.swift */; };
+		BEF7E27E27FCCFD00096FE2D /* GrocerySectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF7E27D27FCCFD00096FE2D /* GrocerySectionsViewController.swift */; };
 		BEF7E28127FCCFD00096FE2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEF7E27F27FCCFD00096FE2D /* Main.storyboard */; };
 		BEF7E28327FCCFD10096FE2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEF7E28227FCCFD10096FE2D /* Assets.xcassets */; };
 		BEF7E28627FCCFD10096FE2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEF7E28427FCCFD10096FE2D /* LaunchScreen.storyboard */; };
 		BEF7E29127FCCFD20096FE2D /* Garugu_GroceryAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF7E29027FCCFD20096FE2D /* Garugu_GroceryAppTests.swift */; };
 		BEF7E29B27FCCFD20096FE2D /* Garugu_GroceryAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF7E29A27FCCFD20096FE2D /* Garugu_GroceryAppUITests.swift */; };
 		BEF7E29D27FCCFD20096FE2D /* Garugu_GroceryAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF7E29C27FCCFD20096FE2D /* Garugu_GroceryAppUITestsLaunchTests.swift */; };
+		BEF7E2AC27FCD3530096FE2D /* GroceryItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF7E2AB27FCD3530096FE2D /* GroceryItemsViewController.swift */; };
+		BEF7E2AE27FCD8370096FE2D /* ItemInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF7E2AD27FCD8370096FE2D /* ItemInfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +41,7 @@
 		BEF7E27627FCCFD00096FE2D /* Garugu_GroceryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Garugu_GroceryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEF7E27927FCCFD00096FE2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEF7E27B27FCCFD00096FE2D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BEF7E27D27FCCFD00096FE2D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BEF7E27D27FCCFD00096FE2D /* GrocerySectionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrocerySectionsViewController.swift; sourceTree = "<group>"; };
 		BEF7E28027FCCFD00096FE2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BEF7E28227FCCFD10096FE2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEF7E28527FCCFD10096FE2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +51,8 @@
 		BEF7E29627FCCFD20096FE2D /* Garugu_GroceryAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Garugu_GroceryAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEF7E29A27FCCFD20096FE2D /* Garugu_GroceryAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Garugu_GroceryAppUITests.swift; sourceTree = "<group>"; };
 		BEF7E29C27FCCFD20096FE2D /* Garugu_GroceryAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Garugu_GroceryAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BEF7E2AB27FCD3530096FE2D /* GroceryItemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryItemsViewController.swift; sourceTree = "<group>"; };
+		BEF7E2AD27FCD8370096FE2D /* ItemInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemInfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +105,10 @@
 			children = (
 				BEF7E27927FCCFD00096FE2D /* AppDelegate.swift */,
 				BEF7E27B27FCCFD00096FE2D /* SceneDelegate.swift */,
-				BEF7E27D27FCCFD00096FE2D /* ViewController.swift */,
+				BEF7E27D27FCCFD00096FE2D /* GrocerySectionsViewController.swift */,
+				BEF7E2AB27FCD3530096FE2D /* GroceryItemsViewController.swift */,
 				BEF7E27F27FCCFD00096FE2D /* Main.storyboard */,
+				BEF7E2AD27FCD8370096FE2D /* ItemInfoViewController.swift */,
 				BEF7E28227FCCFD10096FE2D /* Assets.xcassets */,
 				BEF7E28427FCCFD10096FE2D /* LaunchScreen.storyboard */,
 				BEF7E28727FCCFD10096FE2D /* Info.plist */,
@@ -258,8 +264,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEF7E27E27FCCFD00096FE2D /* ViewController.swift in Sources */,
+				BEF7E27E27FCCFD00096FE2D /* GrocerySectionsViewController.swift in Sources */,
 				BEF7E27A27FCCFD00096FE2D /* AppDelegate.swift in Sources */,
+				BEF7E2AC27FCD3530096FE2D /* GroceryItemsViewController.swift in Sources */,
+				BEF7E2AE27FCD8370096FE2D /* ItemInfoViewController.swift in Sources */,
 				BEF7E27C27FCCFD00096FE2D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
