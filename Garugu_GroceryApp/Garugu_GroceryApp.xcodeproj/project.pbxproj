@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BEF7E27A27FCCFD00096FE2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF7E27927FCCFD00096FE2D /* AppDelegate.swift */; };
+		BEF7E27C27FCCFD00096FE2D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF7E27B27FCCFD00096FE2D /* SceneDelegate.swift */; };
+		BEF7E27E27FCCFD00096FE2D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF7E27D27FCCFD00096FE2D /* ViewController.swift */; };
+		BEF7E28127FCCFD00096FE2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEF7E27F27FCCFD00096FE2D /* Main.storyboard */; };
+		BEF7E28327FCCFD10096FE2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEF7E28227FCCFD10096FE2D /* Assets.xcassets */; };
+		BEF7E28627FCCFD10096FE2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEF7E28427FCCFD10096FE2D /* LaunchScreen.storyboard */; };
+		BEF7E29127FCCFD20096FE2D /* Garugu_GroceryAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF7E29027FCCFD20096FE2D /* Garugu_GroceryAppTests.swift */; };
+		BEF7E29B27FCCFD20096FE2D /* Garugu_GroceryAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF7E29A27FCCFD20096FE2D /* Garugu_GroceryAppUITests.swift */; };
+		BEF7E29D27FCCFD20096FE2D /* Garugu_GroceryAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF7E29C27FCCFD20096FE2D /* Garugu_GroceryAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BEF7E28D27FCCFD20096FE2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEF7E26E27FCCFD00096FE2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEF7E27527FCCFD00096FE2D;
+			remoteInfo = Garugu_GroceryApp;
+		};
+		BEF7E29727FCCFD20096FE2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEF7E26E27FCCFD00096FE2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEF7E27527FCCFD00096FE2D;
+			remoteInfo = Garugu_GroceryApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BEF7E27627FCCFD00096FE2D /* Garugu_GroceryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Garugu_GroceryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEF7E27927FCCFD00096FE2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BEF7E27B27FCCFD00096FE2D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BEF7E27D27FCCFD00096FE2D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BEF7E28027FCCFD00096FE2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BEF7E28227FCCFD10096FE2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEF7E28527FCCFD10096FE2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BEF7E28727FCCFD10096FE2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEF7E28C27FCCFD20096FE2D /* Garugu_GroceryAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Garugu_GroceryAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEF7E29027FCCFD20096FE2D /* Garugu_GroceryAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Garugu_GroceryAppTests.swift; sourceTree = "<group>"; };
+		BEF7E29627FCCFD20096FE2D /* Garugu_GroceryAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Garugu_GroceryAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEF7E29A27FCCFD20096FE2D /* Garugu_GroceryAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Garugu_GroceryAppUITests.swift; sourceTree = "<group>"; };
+		BEF7E29C27FCCFD20096FE2D /* Garugu_GroceryAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Garugu_GroceryAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEF7E27327FCCFD00096FE2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEF7E28927FCCFD20096FE2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEF7E29327FCCFD20096FE2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BEF7E26D27FCCFD00096FE2D = {
+			isa = PBXGroup;
+			children = (
+				BEF7E27827FCCFD00096FE2D /* Garugu_GroceryApp */,
+				BEF7E28F27FCCFD20096FE2D /* Garugu_GroceryAppTests */,
+				BEF7E29927FCCFD20096FE2D /* Garugu_GroceryAppUITests */,
+				BEF7E27727FCCFD00096FE2D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BEF7E27727FCCFD00096FE2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEF7E27627FCCFD00096FE2D /* Garugu_GroceryApp.app */,
+				BEF7E28C27FCCFD20096FE2D /* Garugu_GroceryAppTests.xctest */,
+				BEF7E29627FCCFD20096FE2D /* Garugu_GroceryAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEF7E27827FCCFD00096FE2D /* Garugu_GroceryApp */ = {
+			isa = PBXGroup;
+			children = (
+				BEF7E27927FCCFD00096FE2D /* AppDelegate.swift */,
+				BEF7E27B27FCCFD00096FE2D /* SceneDelegate.swift */,
+				BEF7E27D27FCCFD00096FE2D /* ViewController.swift */,
+				BEF7E27F27FCCFD00096FE2D /* Main.storyboard */,
+				BEF7E28227FCCFD10096FE2D /* Assets.xcassets */,
+				BEF7E28427FCCFD10096FE2D /* LaunchScreen.storyboard */,
+				BEF7E28727FCCFD10096FE2D /* Info.plist */,
+			);
+			path = Garugu_GroceryApp;
+			sourceTree = "<group>";
+		};
+		BEF7E28F27FCCFD20096FE2D /* Garugu_GroceryAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				BEF7E29027FCCFD20096FE2D /* Garugu_GroceryAppTests.swift */,
+			);
+			path = Garugu_GroceryAppTests;
+			sourceTree = "<group>";
+		};
+		BEF7E29927FCCFD20096FE2D /* Garugu_GroceryAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BEF7E29A27FCCFD20096FE2D /* Garugu_GroceryAppUITests.swift */,
+				BEF7E29C27FCCFD20096FE2D /* Garugu_GroceryAppUITestsLaunchTests.swift */,
+			);
+			path = Garugu_GroceryAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEF7E27527FCCFD00096FE2D /* Garugu_GroceryApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEF7E2A027FCCFD20096FE2D /* Build configuration list for PBXNativeTarget "Garugu_GroceryApp" */;
+			buildPhases = (
+				BEF7E27227FCCFD00096FE2D /* Sources */,
+				BEF7E27327FCCFD00096FE2D /* Frameworks */,
+				BEF7E27427FCCFD00096FE2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Garugu_GroceryApp;
+			productName = Garugu_GroceryApp;
+			productReference = BEF7E27627FCCFD00096FE2D /* Garugu_GroceryApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BEF7E28B27FCCFD20096FE2D /* Garugu_GroceryAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEF7E2A327FCCFD20096FE2D /* Build configuration list for PBXNativeTarget "Garugu_GroceryAppTests" */;
+			buildPhases = (
+				BEF7E28827FCCFD20096FE2D /* Sources */,
+				BEF7E28927FCCFD20096FE2D /* Frameworks */,
+				BEF7E28A27FCCFD20096FE2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEF7E28E27FCCFD20096FE2D /* PBXTargetDependency */,
+			);
+			name = Garugu_GroceryAppTests;
+			productName = Garugu_GroceryAppTests;
+			productReference = BEF7E28C27FCCFD20096FE2D /* Garugu_GroceryAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BEF7E29527FCCFD20096FE2D /* Garugu_GroceryAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEF7E2A627FCCFD20096FE2D /* Build configuration list for PBXNativeTarget "Garugu_GroceryAppUITests" */;
+			buildPhases = (
+				BEF7E29227FCCFD20096FE2D /* Sources */,
+				BEF7E29327FCCFD20096FE2D /* Frameworks */,
+				BEF7E29427FCCFD20096FE2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEF7E29827FCCFD20096FE2D /* PBXTargetDependency */,
+			);
+			name = Garugu_GroceryAppUITests;
+			productName = Garugu_GroceryAppUITests;
+			productReference = BEF7E29627FCCFD20096FE2D /* Garugu_GroceryAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEF7E26E27FCCFD00096FE2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					BEF7E27527FCCFD00096FE2D = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					BEF7E28B27FCCFD20096FE2D = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = BEF7E27527FCCFD00096FE2D;
+					};
+					BEF7E29527FCCFD20096FE2D = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = BEF7E27527FCCFD00096FE2D;
+					};
+				};
+			};
+			buildConfigurationList = BEF7E27127FCCFD00096FE2D /* Build configuration list for PBXProject "Garugu_GroceryApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BEF7E26D27FCCFD00096FE2D;
+			productRefGroup = BEF7E27727FCCFD00096FE2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEF7E27527FCCFD00096FE2D /* Garugu_GroceryApp */,
+				BEF7E28B27FCCFD20096FE2D /* Garugu_GroceryAppTests */,
+				BEF7E29527FCCFD20096FE2D /* Garugu_GroceryAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEF7E27427FCCFD00096FE2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF7E28627FCCFD10096FE2D /* LaunchScreen.storyboard in Resources */,
+				BEF7E28327FCCFD10096FE2D /* Assets.xcassets in Resources */,
+				BEF7E28127FCCFD00096FE2D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEF7E28A27FCCFD20096FE2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEF7E29427FCCFD20096FE2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEF7E27227FCCFD00096FE2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF7E27E27FCCFD00096FE2D /* ViewController.swift in Sources */,
+				BEF7E27A27FCCFD00096FE2D /* AppDelegate.swift in Sources */,
+				BEF7E27C27FCCFD00096FE2D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEF7E28827FCCFD20096FE2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF7E29127FCCFD20096FE2D /* Garugu_GroceryAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEF7E29227FCCFD20096FE2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF7E29B27FCCFD20096FE2D /* Garugu_GroceryAppUITests.swift in Sources */,
+				BEF7E29D27FCCFD20096FE2D /* Garugu_GroceryAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BEF7E28E27FCCFD20096FE2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEF7E27527FCCFD00096FE2D /* Garugu_GroceryApp */;
+			targetProxy = BEF7E28D27FCCFD20096FE2D /* PBXContainerItemProxy */;
+		};
+		BEF7E29827FCCFD20096FE2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEF7E27527FCCFD00096FE2D /* Garugu_GroceryApp */;
+			targetProxy = BEF7E29727FCCFD20096FE2D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BEF7E27F27FCCFD00096FE2D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEF7E28027FCCFD00096FE2D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BEF7E28427FCCFD10096FE2D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEF7E28527FCCFD10096FE2D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BEF7E29E27FCCFD20096FE2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BEF7E29F27FCCFD20096FE2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEF7E2A127FCCFD20096FE2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Garugu_GroceryApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Garugu-GroceryApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BEF7E2A227FCCFD20096FE2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Garugu_GroceryApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Garugu-GroceryApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BEF7E2A427FCCFD20096FE2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Garugu-GroceryAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Garugu_GroceryApp.app/Garugu_GroceryApp";
+			};
+			name = Debug;
+		};
+		BEF7E2A527FCCFD20096FE2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Garugu-GroceryAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Garugu_GroceryApp.app/Garugu_GroceryApp";
+			};
+			name = Release;
+		};
+		BEF7E2A727FCCFD20096FE2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Garugu-GroceryAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Garugu_GroceryApp;
+			};
+			name = Debug;
+		};
+		BEF7E2A827FCCFD20096FE2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Garugu-GroceryAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Garugu_GroceryApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEF7E27127FCCFD00096FE2D /* Build configuration list for PBXProject "Garugu_GroceryApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEF7E29E27FCCFD20096FE2D /* Debug */,
+				BEF7E29F27FCCFD20096FE2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEF7E2A027FCCFD20096FE2D /* Build configuration list for PBXNativeTarget "Garugu_GroceryApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEF7E2A127FCCFD20096FE2D /* Debug */,
+				BEF7E2A227FCCFD20096FE2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEF7E2A327FCCFD20096FE2D /* Build configuration list for PBXNativeTarget "Garugu_GroceryAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEF7E2A427FCCFD20096FE2D /* Debug */,
+				BEF7E2A527FCCFD20096FE2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEF7E2A627FCCFD20096FE2D /* Build configuration list for PBXNativeTarget "Garugu_GroceryAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEF7E2A727FCCFD20096FE2D /* Debug */,
+				BEF7E2A827FCCFD20096FE2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEF7E26E27FCCFD00096FE2D /* Project object */;
+}
