@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BED72B71280614A4000F94CA /* GrocerySections.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED72B70280614A4000F94CA /* GrocerySections.swift */; };
 		BEF7E27A27FCCFD00096FE2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF7E27927FCCFD00096FE2D /* AppDelegate.swift */; };
 		BEF7E27C27FCCFD00096FE2D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF7E27B27FCCFD00096FE2D /* SceneDelegate.swift */; };
 		BEF7E27E27FCCFD00096FE2D /* GrocerySectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF7E27D27FCCFD00096FE2D /* GrocerySectionsViewController.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BED72B70280614A4000F94CA /* GrocerySections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrocerySections.swift; sourceTree = "<group>"; };
 		BEF7E27627FCCFD00096FE2D /* Garugu_GroceryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Garugu_GroceryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEF7E27927FCCFD00096FE2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEF7E27B27FCCFD00096FE2D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				BEF7E27927FCCFD00096FE2D /* AppDelegate.swift */,
 				BEF7E27B27FCCFD00096FE2D /* SceneDelegate.swift */,
 				BEF7E27D27FCCFD00096FE2D /* GrocerySectionsViewController.swift */,
+				BED72B70280614A4000F94CA /* GrocerySections.swift */,
 				BEF7E2AB27FCD3530096FE2D /* GroceryItemsViewController.swift */,
 				BEF7E27F27FCCFD00096FE2D /* Main.storyboard */,
 				BEF7E2AD27FCD8370096FE2D /* ItemInfoViewController.swift */,
@@ -265,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEF7E27E27FCCFD00096FE2D /* GrocerySectionsViewController.swift in Sources */,
+				BED72B71280614A4000F94CA /* GrocerySections.swift in Sources */,
 				BEF7E27A27FCCFD00096FE2D /* AppDelegate.swift in Sources */,
 				BEF7E2AC27FCD3530096FE2D /* GroceryItemsViewController.swift in Sources */,
 				BEF7E2AE27FCD8370096FE2D /* ItemInfoViewController.swift in Sources */,

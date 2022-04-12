@@ -20,15 +20,15 @@
                                 <rect key="frame" x="0.0" y="88" width="414" height="774"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="sectionCell" id="sad-a9-fvS">
-                                        <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="sectionCell" rowHeight="44" id="sad-a9-fvS">
+                                        <rect key="frame" x="0.0" y="44.5" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="sad-a9-fvS" id="BoL-kd-6M9">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="ZmJ-HB-HWR" kind="show" identifier="itemCell" id="pcJ-xC-mEG"/>
+                                            <segue destination="ZmJ-HB-HWR" kind="show" identifier="itemsSegue" id="u3p-Or-TD4"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -45,12 +45,12 @@
                     </view>
                     <navigationItem key="navigationItem" id="Zr6-9n-79b"/>
                     <connections>
-                        <outlet property="grocerySectionsTableView" destination="SqJ-oe-Lv5" id="q3I-hS-sbl"/>
+                        <outlet property="grocerySectionsTableView" destination="SqJ-oe-Lv5" id="YuE-Vl-pOd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1107" y="90"/>
+            <point key="canvasLocation" x="1105.7971014492755" y="89.732142857142847"/>
         </scene>
         <!--Grocery Items View Controller-->
         <scene sceneID="qeE-wL-8qJ">
@@ -104,34 +104,44 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dFn-gq-Cws">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dFn-gq-Cws">
                                 <rect key="frame" x="87" y="184" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ypi-OR-tje">
-                                <rect key="frame" x="174" y="395" width="67" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
-                            </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="4jf-Bd-Sso">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="4jf-Bd-Sso">
                                 <rect key="frame" x="87" y="503" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ypi-OR-tje">
+                                <rect key="frame" x="167" y="398" width="80" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="jWG-LW-BpE"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="4jf-Bd-Sso" firstAttribute="leading" secondItem="jWG-LW-BpE" secondAttribute="leading" constant="87" id="4FE-dW-BJm"/>
+                            <constraint firstItem="ypi-OR-tje" firstAttribute="centerX" secondItem="4jf-Bd-Sso" secondAttribute="centerX" id="59s-lH-uCe"/>
+                            <constraint firstItem="ypi-OR-tje" firstAttribute="top" secondItem="dFn-gq-Cws" secondAttribute="bottom" constant="86" id="FpR-cL-cAm"/>
+                            <constraint firstItem="4jf-Bd-Sso" firstAttribute="leading" secondItem="dFn-gq-Cws" secondAttribute="leading" id="Gc6-DT-ZN4"/>
+                            <constraint firstItem="ypi-OR-tje" firstAttribute="centerX" secondItem="dFn-gq-Cws" secondAttribute="centerX" id="Hgo-nO-Osd"/>
+                            <constraint firstItem="ypi-OR-tje" firstAttribute="centerX" secondItem="jgV-vv-r03" secondAttribute="centerX" id="MVi-oP-tE5"/>
+                            <constraint firstItem="jWG-LW-BpE" firstAttribute="bottom" secondItem="4jf-Bd-Sso" secondAttribute="bottom" constant="231" id="Zfl-mC-Lx5"/>
+                            <constraint firstItem="ypi-OR-tje" firstAttribute="leading" secondItem="jWG-LW-BpE" secondAttribute="leading" constant="167" id="aZz-0n-dbw"/>
+                            <constraint firstItem="dFn-gq-Cws" firstAttribute="top" secondItem="jWG-LW-BpE" secondAttribute="top" constant="96" id="fLJ-5k-O2v"/>
+                            <constraint firstItem="4jf-Bd-Sso" firstAttribute="top" secondItem="ypi-OR-tje" secondAttribute="bottom" constant="74" id="wxk-qL-cfV"/>
+                            <constraint firstItem="ypi-OR-tje" firstAttribute="top" secondItem="jgV-vv-r03" secondAttribute="top" constant="398" id="zbU-7E-bPF"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="ffm-Wy-wCR"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SAR-VR-SW3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3004" y="66"/>
+            <point key="canvasLocation" x="3002.898550724638" y="65.625"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="SNk-zP-5nd">
